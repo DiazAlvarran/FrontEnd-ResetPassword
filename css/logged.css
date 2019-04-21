@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-image: url('../img/FondoSunarp1.jpg');
+}
+
+/*=============CABECERA============*/
+#cabecera{
+    position: fixed;
+    width: 100%;
+    background-color: #3D4B49;
+    padding: 7px 7%;
+    text-align: center;
+    top: 0px;
+    z-index: 1;
+}
+#logo{
+    float: left;
+    width: 90px;
+    height: 53px;
+}
+h1{
+    color: #eafffb;
+    display: inline;
+    float: right;
+    text-shadow: 2px 2px 10px #444;
+}
+
+/*=============BARRA DE BIENVENIDA============*/
+.cabecera-barra{
+    margin-top: 70px;
+    font: 11px Arial, Helvetica, sans-serif;
+}
+.cabecera-barra .cabecera-separador{
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.cabecera-barra .cabecera-barra-2 {
+    background-color: #ffffff;
+    box-shadow: 1px 3px 3px 0 rgba(0, 0, 0, 0.05);
+    padding: 10px 10px;
+}
+.cabecera-barra .cabecera-barra-2 h2 {
+    line-height: 20px;
+    margin: 0px;
+    float: left;
+}
+.cabecera-barra .cabecera-barra-2 h2 div {
+    font-size: 24px;
+    color: #4e5359;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cabecera-barra .cabecera-barra-2 nav {
+    text-align: right;
+    line-height: 20px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.cabecera-barra .cabecera-barra-2 nav div {
+    display: inline-block;
+    color: #4e5359;
+    text-decoration: none;
+}
+.cabecera-barra .cabecera-barra-2 nav i.fa {
+    color: #A9B7BF;
+    margin: 0 4px 0 15px;
+}
+.btn{
+    padding: 3px 6px !important;
+}
+#btn_cerrar_sesion{
+    margin-left: 15px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px #444;
+}
+
+/*=============TABLA DE SISTEMAS============*/
+#tabla{
+    margin: 0% 20%;
+}
+table{
+    text-align: center;
+}
+.table{
+    margin: 20px !important;
+}
+thead{
+    color: #3D4B49;
+    background-color: #8EC321;
+}
+table td:nth-child(2){
+    width: 150px;
+}
+
+/*=============BOTÓN DE RESETEAR============*/
+.btn-primary{
+    background-color: #8EC321 !important;
+    border-color: #6d9616 !important;
+    border-width: 2px;  
+}
+.btn-primary:hover{
+    background-color: #00A4A5 !important;
+}
+#btn_recuperar{
+    font-weight: bold;
+    text-shadow: 2px 2px 10px #444;
+    box-shadow: 2px 2px 10px #444;
+}
+
+/*=============RESPONSIVE <=800px============*/
+@media all and (max-width: 800px) {
+    .cabecera-barra .cabecera-barra-2 nav{
+        font-size:12px;
+    }
+}
+
+/*=============RESPONSIVE <=700px============*/
+@media all and (max-width: 700px) {
+ 
+    .cabecera-barra .cabecera-barra-2{
+        padding: 8px 0;
+    }
+    .cabecera-barra .cabecera-barra-2 h2{
+        float:none;
+        margin: 0 0 12px;
+    }
+    .cabecera-barra .cabecera-barra-2 h2 div {
+        font-size: 28px;
+    }
+    .cabecera-barra .cabecera-barra-2 nav{
+        font-size: 14px;
+        text-align: center;
+    }
+    .cabecera-barra .cabecera-barra-2 nav div{
+        display: block;
+        padding: 5px;
+    }
+    .cabecera-barra .cabecera-barra-2 nav i.fa{
+        margin-left:0;
+    }
+    #tabla{
+        margin: 0% 10%;
+    }
+}

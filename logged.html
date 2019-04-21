@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PRINCIPAL</title>
+    <!--
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="resources/bootstrap-4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="resources/alertifyjs/css/alertify.css">
+    <link rel="stylesheet" type="text/css" href="resources/alertifyjs/css/themes/default.css">
+    <link rel="stylesheet" type="text/css" href="css/logged.css">
+</head>
+<body>
+    <!--===========CABECERA========-->
+    <header id="cabecera">
+        <img src="img/logo-sunarp1.png" id="logo">
+        <h1>Reseteo de contraseña</h1>
+    </header>
+
+    <!--===========BARRA DE BIENVENIDA DE USUARIO========-->
+    <div class="cabecera-barra">
+        <div class="cabecera-barra-2">
+            <div class="cabecera-separador">
+                <h2>
+                    <div>Bienvenido</div>
+                </h2>
+                <nav>
+                    <div id="nombre_usuario">
+                        
+                    </div>
+                    <div id="nombre_area">
+                        
+                    </div>
+                    <button type="button" class="btn btn-danger" id="btn_cerrar_sesion">
+                        <i class="fas fa-power-off"></i> Salir
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!--===========INFORMACIÓN========-->
+    <div class="alert alert-info" role="alert">
+        <strong>Usted usa los siguiente sistemas</strong>
+        <br>
+        Marque en la derecha los sistemas que desea resetear.
+    </div>
+
+    <!--===========TABLA DE SISTEMAS========-->
+    <div id="tabla">
+        <table class="table table-bordered" id="contenido_tabla">
+            <!--
+            <thead>
+                <tr>
+                    <th scope="col" id="head1">Sistema</th>
+                    <th scope="col" id="head2">Resetear</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SARP</td>
+                    <td>
+                        <div class="custom-control custom-checkbox mr-sm-2">
+                            <input type="checkbox" class="custom-control-input" id="checkbox1">
+                            <label class="custom-control-label" for="checkbox1"></label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>SIR</td>
+                    <td>
+                        <div class="custom-control custom-checkbox mr-sm-2">
+                            <input type="checkbox" class="custom-control-input" id="checkbox2">
+                            <label class="custom-control-label" for="checkbox2"></label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PERMISOS</td>
+                    <td>
+                        <div class="custom-control custom-checkbox mr-sm-2">
+                            <input type="checkbox" class="custom-control-input" id="checkbox3">
+                            <label class="custom-control-label" for="checkbox3"></label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>BLOQUEOS</td>
+                    <td>
+                        <div class="custom-control custom-checkbox mr-sm-2">
+                            <input type="checkbox" class="custom-control-input" id="checkbox4">
+                            <label class="custom-control-label" for="checkbox4"></label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>SISTRAM</td>
+                    <td>
+                        <div class="custom-control custom-checkbox mr-sm-2">
+                            <input type="checkbox" class="custom-control-input" id="checkbox5">
+                            <label class="custom-control-label" for="checkbox5"></label>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+            -->
+        </table>
+    </div>
+
+    <!--===========BOTÓN DE RESETEAR========-->
+    <button type="button" class="btn btn-lg btn-primary" id="btn_recuperar">
+        <i class="fas fa-key"></i> Resetear
+    </button>
+
+
+    <script type="text/javascript" src="resources/jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="resources/alertifyjs/alertify.js"></script>
+    <script type="text/javascript" src="js/logged.js"></script>
+</body>
+</html>
